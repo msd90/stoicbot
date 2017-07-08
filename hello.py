@@ -22,13 +22,14 @@ i=0
 while (True):
     tweet = file.readline()
     api.update_status(tweet)
-    time.sleep(30)
+    #print tweet
+    time.sleep(86400)
     i+=1
-    if i == 10:
-        #file.seek(0)
-        #i = 0
+    if i == 75:
+        file.seek(0)
+        i = 0
         #print "done"
-        break
+
 
 
 #chars = words = lines = 0
