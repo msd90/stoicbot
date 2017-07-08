@@ -17,11 +17,12 @@ api = tweepy.API(auth)
 #    count = count + 1
 #    time.sleep(60)
 
-file = open('quotes_test.txt', 'r')
+file = open('quotes.txt', 'r')
 i=0
 while (True):
-    print file.readline()
-    time.sleep(300)
+    tweet = file.readline()
+    api.update_status(tweet)
+    time.sleep(30)
     i+=1
     if i == 10:
         #file.seek(0)
