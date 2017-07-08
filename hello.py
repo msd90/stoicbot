@@ -27,7 +27,7 @@ while (True):
     if i == 10:
         #file.seek(0)
         #i = 0
-        print "done"
+        #print "done"
         break
 
 
