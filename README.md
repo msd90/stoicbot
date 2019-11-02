@@ -8,7 +8,7 @@ To see this in action see https://twitter.com/StoicQuoteBot
 
 1. Download the file contents in a single folder
 2. Make sure you have ```pip``` installed and inside the downloaded folder run ```pip install -r requirements.txt```
-3. Inside ```hello.py``` you will need your own set of token and access keys from https://developer.twitter.com/ 
+3. Inside ```start.py``` you will need your own set of token and access keys from https://developer.twitter.com/ 
 4. Once those keys are generated you can copy and paste them in the ```start.py``` file:
 
 `consumer_key =    '(insert key here from https://developer.twitter.com/  )`\
