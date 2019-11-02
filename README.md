@@ -16,7 +16,7 @@ To see this in action see https://twitter.com/StoicQuoteBot
 `ccess_token =     '(insert key here from https://developer.twitter.com/)'`\
 `access_token_secret = '(insert key here from https://developer.twitter.com/)'`
 
-5. Change the `time.sleep(86400)` to `time.sleep(0)'` to the tweets updated from the script
+5. Change the `time.sleep(86400)` to `time.sleep(3)'` to see the tweets updated from the script
 6. Run `python start.py` 
 
 
